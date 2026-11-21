@@ -1,0 +1,15 @@
+[general]
+autostart = ["noctalia", "kitty"]
+mod_key = "Super"
+# xwayland = true
+# xwayland_native_resolution = false
+# xwayland_xsettings = true
+# xwayland_primary_output = ""
+# nvidia_sync_workaround = true
+show_cheatsheet = true
+# focus_on_activate = false
+# attach_modal_dialogs = true
+# honor_restored_maximize = false
+
+
+

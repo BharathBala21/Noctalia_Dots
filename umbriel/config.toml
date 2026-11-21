@@ -1,0 +1,32 @@
+[include]
+files = [
+    "keybindings.toml",
+    "general.toml",
+    "appearance.toml",
+    "window_rule.toml",
+    "layer_rule.toml"
+]
+
+[include.optional]
+files = ["noctalia.toml"]
+
+[input.keyboard]
+numlock_toggle = true
+
+[layout]
+mode = "scrolling"
+extent_presets = [0.333, 0.5, 0.667]
+
+[layout.stacking]
+
+[layout.scrolling]
+default_extent_fraction = 0.5
+
+
+
+
+[hot_corners.top_left]
+enabled = true
+delay_ms = 500
+action = "overview-open"
+
