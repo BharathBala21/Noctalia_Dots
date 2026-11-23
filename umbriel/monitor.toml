@@ -1,0 +1,5 @@
+[output.eDP-1]
+mode = "1920x1200@60"
+position = [0, 0]
+scale = 1
+focus_at_startup = true

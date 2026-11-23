@@ -1,0 +1,7 @@
+[input.touchpad]
+# enabled = true
+# tap = true
+# tap_and_drag = false
+# drag_lock = "sticky"
+natural_scroll = true
+# left_handed = false

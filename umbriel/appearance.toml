@@ -1,6 +1,6 @@
 [appearance]
 prefer_no_csd = true
-border_width = 2
+border_width = 0
 corner_radius = 10
 
 [appearance.blur]
@@ -12,3 +12,9 @@ noise = 0.02
 brightness = 0.9
 contrast = 0.9
 saturation = 1.1
+
+[appearance.shadow]
+enabled = true
+softness = 10
+offset_x = 2
+offset_y = 2

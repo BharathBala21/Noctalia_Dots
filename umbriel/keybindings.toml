@@ -9,6 +9,7 @@
 "Mod+Q" = { action = "window-close", repeat = false }
 "Mod+Escape" = "session-quit"
 "Mod+Shift+Escape" = { action = "shortcuts-inhibit-toggle", allow_when_inhibited = true, repeat = false }
+"Mod+C" = { action = "column-center", allow_when_inhibited = true, repeat = false }
 
 # Media, volume and brightness keys from any input device, routed through the
 # Noctalia shell so its OSDs show. Safe while the session is locked.
@@ -98,8 +99,10 @@
 "Mod+bracketright" = "spawn noctalia msg settings-toggle"
 "Alt+Tab" = "spawn noctalia msg window-switcher hold"
 "Alt+Shift+Tab" = "spawn noctalia msg window-switcher hold reverse"
-"Mod+Shift+S" = "spawn noctalia msg screenshot-annotate"
+"Mod+Shift+S" = "spawn noctalia msg screenshot-region"
 "Mod+Ctrl+S" = "spawn noctalia msg annotate"
 "Mod+Ctrl+R" = "spawn noctalia msg plugin noctalia/screen_recorder:service all  toggle region"
 # noctalia msg panel-toggle clipboard
 "Mod+V" = "spawn noctalia msg panel-toggle clipboard"
+"Ctrl+Shift+Escape" = "spawn missioncenter"
+"Mod+Alt+N"  = "spawn noctalia msg panel-toggle ahmedhossamdev/sticky-notes:panel "

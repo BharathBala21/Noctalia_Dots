@@ -2,10 +2,10 @@
 blur = true
 blur_optimized = true
 
-[[window_rule]]
-match.app_id = "^dev.noctalia.Noctalia$"
-default_floating = true
-default_floating_size_px = { width = 1020, height = 900 }
+# [[window_rule]]
+# match.app_id = "^dev.noctalia.Noctalia$"
+# default_floating = true
+# default_floating_size_px = { width = 1020, height = 900 }
 
 [[window_rule]]
 match.app_id = "^dev.noctalia.UmbrielSharePicker$"
@@ -32,6 +32,16 @@ default_floating_size_px = { width = 1114, height = 845 }
 
 
 [[window_rule]]
-match.app_id = "^kitty$"
-default_floating = true
-default_floating_size_px = { width = 797, height = 550 }
+match.app_id = "^io.missioncenter.MissionCenter$"
+default_scrolling_extent = 0.7
+
+
+# [[window_rule]]
+# match.app_id = "^kitty$"
+# default_floating = true
+# default_floating_size_px = { width = 797, height = 550 }
+
+
+[[window_rule]]
+match.is_focused =true
+dim_behind  = 0.4

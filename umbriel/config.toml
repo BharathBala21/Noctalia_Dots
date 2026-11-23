@@ -1,10 +1,21 @@
 [include]
 files = [
+    "monitor.toml",
+    "env.toml",
     "keybindings.toml",
     "general.toml",
     "appearance.toml",
     "window_rule.toml",
-    "layer_rule.toml"
+    "layer_rule.toml",
+    "effects.toml",
+    "input.toml",
+    "/usr/share/umbriel/effects/screen/vignette/effect.toml",
+    "/usr/share/umbriel/effects/border/pulse/effect.toml",
+    "/usr/share/umbriel/effects/animation/reveal/effect.toml",
+    "/usr/share/umbriel/effects/cursor/glow/effect.toml",
+    "/usr/share/umbriel/effects/cursor/trail/effect.toml",
+    "/usr/share/umbriel/effects/cursor/trail-path/effect.toml",
+    "/usr/share/umbriel/effects/window/scanlines/effect.toml"
 ]
 
 [include.optional]
