@@ -9,6 +9,7 @@ files = [
     "layer_rule.toml",
     "effects.toml",
     "input.toml",
+    "overview.toml",
     "/usr/share/umbriel/effects/screen/vignette/effect.toml",
     "/usr/share/umbriel/effects/border/pulse/effect.toml",
     "/usr/share/umbriel/effects/animation/reveal/effect.toml",

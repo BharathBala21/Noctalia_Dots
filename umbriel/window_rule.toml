@@ -43,5 +43,28 @@ default_scrolling_extent = 0.7
 
 
 [[window_rule]]
+match.app_id = "^zen$"
+default_scrolling_extent = 0.92
+
+
+[[window_rule]]
+match.app_id = "^com.microsoft.VSCode$"
+default_scrolling_extent = 1
+
+
+
+
+[[window_rule]]
 match.is_focused =true
 dim_behind  = 0.4
+
+
+# [[window_rule]]
+# match.is_focused = false
+# opacity = 0.85
+
+
+[[window_rule]]
+match.app_id = "^steam$"
+match.title = "^Friends List$"
+default_floating = true

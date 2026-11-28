@@ -10,5 +10,7 @@ require("modules.layout")
 require("modules.decoration")
 require("modules.plugins")
 require("modules.env")
+
+
 -- For Noctalia Color templates
 require("noctalia").apply_theme()
